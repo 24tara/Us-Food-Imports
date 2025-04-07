@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Analytics of US Food Imports")
+
+import pandas as pd
+#uploading and reading the cleaned dataset
+dataset = pd.read_csv('FoodImports.csv')
+
