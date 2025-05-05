@@ -128,10 +128,12 @@ if st.checkbox("Check to see trends"):
     st.line_chart(trend_data.set_index('Year Number'))
 
 
-
 st.success("You have reached the end ") 
 st.title(":)")
 #st.balloons()
+
+
+
 
 
 
