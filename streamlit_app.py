@@ -121,7 +121,7 @@ st.subheader("Line Chart of Total Imports Over the Years")
 #if statement 
 if st.checkbox("Check to see trends"):
 #message that shows while loading
-   #st.spinner("waiting...")
+  # st.spinner("waiting...")
 #data by year, also then sumed value
     trend_data = data.groupby('Year Number')['Value'].sum().reset_index()
 # displays chart
